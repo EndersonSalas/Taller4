@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Taller4</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="another_fragment">Ir al fragment</string>
+    <string name="name">Nombre</string>
+    <string name="last_name">Apellidos</string>
+    <string name="email">Correo Electrónico</string>
+    <string name="phone_number">Numero teléfonico</string>
+    <string name="save">Guardar</string>
+    <string name="form">Formulario</string>
+    <string name="no_data">No hay datos</string>
+    <string name="button_add_persona">Agregar Persna</string>
+</resources>
