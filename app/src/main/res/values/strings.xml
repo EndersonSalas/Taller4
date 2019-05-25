@@ -12,4 +12,6 @@
     <string name="form">Formulario</string>
     <string name="no_data">No hay datos</string>
     <string name="button_add_persona">Agregar Persna</string>
+    <string name="button_add_random">Agregar Random</string>
+    <string name="list_personas">Lista Personas</string>
 </resources>

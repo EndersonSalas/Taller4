@@ -15,12 +15,30 @@
         <!--android:layout_weight="1">-->
 
     <!--</ListView>-->
+
+    <Button
+        android:id="@+id/btn_add_random"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/button_add_random"
+        android:textStyle="bold"
+        android:visibility="invisible"/>
     <Button
         android:id="@+id/btn_add_persona"
         android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:layout_marginBottom="50dp"
-        android:text="@string/button_add_persona"/>
+        android:layout_height="1dp"
+        android:layout_marginBottom="0dp"
+        android:text="@string/button_add_persona"
+        android:visibility="invisible"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_marginTop="0dp"
+        android:text="@string/list_personas"
+        android:gravity="center"
+        />
     <ListView
         android:id="@+id/listView2"
         android:layout_width="match_parent"
@@ -28,5 +46,13 @@
         android:layout_weight="1">
 
     </ListView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="30dp"
+        android:src="@drawable/ic_add_layer" />
 
 </LinearLayout>
